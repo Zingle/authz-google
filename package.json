@@ -1,0 +1,23 @@
+{
+  "name": "@zingle/authz-google",
+  "version": "0.0.1",
+  "description": "authz Google OAuth authentication strategy",
+  "main": "google-strategy.mjs",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Zingle/authz-google.git"
+  },
+  "author": "Richard Remer <reanjr@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Zingle/authz-google/issues"
+  },
+  "homepage": "https://github.com/Zingle/authz-google#readme",
+  "dependencies": {
+    "passport-google-oauth2": "^0.2.0"
+  },
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "mocha": "^8.3.2"
+  }
+}
